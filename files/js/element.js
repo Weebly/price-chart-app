@@ -10,7 +10,7 @@
         initialize: function() {
             this.fixStyles();
         },
-        // normalizes the styles of all element children.
+        /* normalizes the styles of all element children. */
         fixStyles: function() {
             this.$('li.wsite-text').each(function(index, value) {
                 var $value = $(value);
